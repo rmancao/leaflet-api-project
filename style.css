@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f6fb;
+  color: #182840;
+}
+main {
+  max-width: 1050px;
+  margin: 28px auto;
+  padding: 16px;
+}
+h1 {
+  margin-bottom: 6px;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin: 20px 0 8px;
+}
+input {
+  padding: 10px;
+  min-width: 240px;
+  border: 1px solid #8a9bb2;
+  border-radius: 6px;
+}
+button {
+  padding: 11px 18px;
+  background: #0a6d8b;
+  border: 0;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background: #09536a;
+}
+#status {
+  min-height: 24px;
+}
+#map {
+  height: 480px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #b1bfce;
+}
